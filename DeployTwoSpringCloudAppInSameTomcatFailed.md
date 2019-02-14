@@ -68,7 +68,7 @@ endpoints.jmx.domain=appname
 
 After I added to the annotation to Application.java instead it works. 
 ```java
-@EnableMBeanExport(defaultDomain="cartell")
+@EnableMBeanExport(defaultDomain="appname")
 public class Application extends SpringBootServletInitializer {
 ```
 
